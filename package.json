@@ -1,8 +1,8 @@
 {
   "name": "bensk-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.1.5",
+  "description": "Like chester, but with bright pink sans-serif comments. Because comments are important.",
   "keywords": [
     "syntax",
     "theme"
