@@ -6,6 +6,6 @@ Like this:
 
 ![Screenshot](https://raw.githubusercontent.com/bensk/bensk-syntax/master/screenshot.png)
 
-Comments are Proxima Nova (or sans-serif if your system doesn't have it) and pink as heck.
+Comments are Proxima Nova (or sans-serif if your system doesn't have it) and <strike>pink</strike> visible as heck.
 
 Enjoy!
