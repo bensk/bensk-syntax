@@ -62,16 +62,7 @@ atom-text-editor .search-results .marker.current-result .region,
   border: 1px solid @syntax-result-marker-color-selected;
 }
 
-.comment {
-  color: #424242;
-  background-color: @comment-background;
-  border-radius: 2px;
-  font-family: Proxima Nova, sans-serif;
-  font-weight: bold;
-  // font-style: italic;
-  padding: 3px;
 
-}
 
 .entity {
   &.name.type {
@@ -312,9 +303,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 }
 
-.source.gfm.comment{
-    font-style: italic;
-}
+
 
 atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
@@ -332,7 +321,9 @@ atom-text-editor[mini] .scroll-view,
   text-decoration: underline;
   font-style: italic;
 }
-
+.span.comment{
+    font-style: italic;
+}
 .markup.heading.gfm{
     font-weight: bold;
     // text-decoration: underline;
@@ -340,6 +331,20 @@ atom-text-editor[mini] .scroll-view,
 
 .python, .javascript, .html, .css{
     font-family: Operator Mono, monospace;
+    // .comment{
+    //     font-style: italic;
+    // }
+}
+
+.comment {
+  color: #424242;
+  background-color: @comment-background;
+  border-radius: 2px;
+  font-family: Proxima Nova, sans-serif;
+  font-weight: bold;
+  // font-style: italic;
+  padding: 3px;
+
 }
 
 // Does this work? No it does not.
