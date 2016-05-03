@@ -7,9 +7,32 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/bensk/bensk-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensk/bensk-syntax.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "readme": "# bensk-syntax theme\n\nThis is a fork of [Chester](https://github.com/csutter/chester-atom-syntax), my favorite syntax theme, with one tweak: it has CRAZY VISIBLE comments, which I find useful for teaching.  \n\nLike this:\n\n![Screenshot](https://raw.githubusercontent.com/bensk/bensk-syntax/master/v1screenshot.png)\n\nComments are Proxima Nova (or sans-serif if your system doesn't have it) and <strike>pink</strike> visible as heck.\n\nEnjoy!\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/bensk/bensk-syntax/issues"
+  },
+  "homepage": "https://github.com/bensk/bensk-syntax#readme",
+  "_id": "bensk-syntax@1.1.2",
+  "_shasum": "39b1389554e9dd1dbfa8b490d26a23a048b3b60c",
+  "_resolved": "file:../d-11641-33815-f598o/package.tgz",
+  "_from": "../d-11641-33815-f598o/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }

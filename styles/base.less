@@ -316,3 +316,24 @@ atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
   padding-left: 1px;
 }
+
+.link .entity {
+  color: @light-gray;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.markup.link {
+  color: @purple;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.markup.heading.gfm{
+    font-weight: bold;
+    // text-decoration: underline;
+}
+
+.python, .javascript, .html, .css{
+    font-family: Operator Mono, monospace;
+}
