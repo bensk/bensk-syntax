@@ -98,6 +98,8 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .storage {
   color: @purple;
+  // font-style: italic;
+  font-weight: bold;
 }
 
 .constant {
@@ -122,6 +124,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .variable {
   color: @red;
+
 
   &.interpolation {
     color: @red;
@@ -196,7 +199,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.function  {
-    color: @cyan;
+    color: #C490C4;
 
     &.any-method {
       color: @blue;
@@ -207,6 +210,9 @@ atom-text-editor .search-results .marker.current-result .region,
 .entity {
   &.name.function {
     color: @blue;
+    font-weight: bold;
+    font-style: italic;
+
   }
 
   &.name.class, &.name.type.class {
@@ -218,8 +224,8 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.tag {
-    color: @red;
-    text-decoration: underline;
+    color: @purple;
+    font-weight: bold;
   }
 
   &.other.attribute-name {
@@ -315,13 +321,13 @@ atom-text-editor[mini] .scroll-view,
 .link .entity {
   color: @light-gray;
   font-weight: bold;
-  font-style: italic;
+  // font-style: italic;
 }
 
 .markup.link {
-  color: @purple;
+  color: @softblue;
   text-decoration: underline;
-  font-style: italic;
+  // font-style: italic;
 }
 .span.comment{
     font-style: italic;
