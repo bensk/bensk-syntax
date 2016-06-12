@@ -4,7 +4,7 @@ This is a fork of [Chester](https://github.com/csutter/chester-atom-syntax), my 
 
 Like this:
 
-![Screenshot](https://raw.githubusercontent.com/bensk/bensk-syntax/master/v1screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/bensk/bensk-syntax/master/v17screenshot.png)
 
 Comments are Proxima Nova (or sans-serif if your system doesn't have it) and <strike>pink</strike> visible as heck.
 
