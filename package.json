@@ -1,7 +1,7 @@
 {
   "name": "bensk-syntax",
   "theme": "syntax",
-  "version": "2.17.0",
+  "version": "3.0.0",
   "description": "Like Chester, but with bright sans-serif comments. Because comments are important.",
   "keywords": [
     "syntax",
